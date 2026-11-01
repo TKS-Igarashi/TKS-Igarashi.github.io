@@ -6,11 +6,11 @@ object AppRouter:
 
   val router: Router[Page] = new Router[Page](
     routes = List(
-      Route.static(Page.Home, root / endOfSegments),
-      Route.static(Page.Profile, root / "profile" / endOfSegments),
-      Route.static(Page.Skill, root / "skill" / endOfSegments),
-      Route.static(Page.Works, root / "works" / endOfSegments),
-      Route.static(Page.Contact, root / "contact" / endOfSegments),
+      Route.static(Page.Home, root),
+      Route.static(Page.Profile, root / "profile"),
+      Route.static(Page.Skill, root / "skill"),
+      Route.static(Page.Works, root / "works"),
+      Route.static(Page.Contact, root / "contact"),
     ),
     // ブラウザのタブに表示するタイトル
     getPageTitle = page => page.title,
