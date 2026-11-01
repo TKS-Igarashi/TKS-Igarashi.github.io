@@ -1,0 +1,28 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__runWatch console0, Some(9b250cb3-7fce-4bb9-ae81-322b953e10f1), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__preWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(fastLinkJS, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / fastLinkJS[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to C:\Users\tks50\Documents\source\portfolio\frontend\target\out\sjs1\scala-3.10.0\frontend\classes ...[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E088] Syntax Error: C:\Users\tks50\Documents\source\portfolio\frontend\src\main\scala\Main.scala:7:10 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m7 |[0m  [33mprivate[0m title = [32m"HOME"[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m          ^^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m          Expected start of definition[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E018] Syntax Error: C:\Users\tks50\Documents\source\portfolio\frontend\src\main\scala\Main.scala:9:39 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m9 |[0m  [33mdef[0m [36mmain[0m([36margs[0m: [32mArray[0m[[32mString[0m]): [32mUnit[0m =[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m  |[0m                                       ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m                                       expression expected but [31m'}'[0m found[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m  |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[0mdebug[0m] [0m[0mGlobal IR cache stats: reused: 0 -- invalidated: 0 -- trees read: 0[0m
+[0m[[0m[31merror[0m] [0m[0m(Compile / [31mcompileIncremental[0m) Compilation failed[0m
+[0m[[0m[31merror[0m] [0m[0melapsed time: 0 s, cache 90%, 9 disk cache hits, 1 onsite task[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__postWatch console0, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(__waitWatch console0, None, None)[0m

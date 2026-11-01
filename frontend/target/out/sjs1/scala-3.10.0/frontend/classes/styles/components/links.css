@@ -1,0 +1,30 @@
+/* 塗りつぶしのリンク・ボタン */
+.button {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 38px;
+  background: var(--ink);
+  color: white;
+  padding: 17px 25px;
+  border: 1px solid var(--ink);
+  border-radius: 3px;
+  font-size: 12px;
+  transition: 0.2s;
+}
+
+.button:hover {
+  background: #2b5645;
+  transform: translateY(-2px);
+}
+
+/* 下線付きのテキストリンク */
+.text-link {
+  font-size: 12px;
+  border-bottom: 1px solid #aebbad;
+  padding: 9px 0;
+}
+
+.text-link span {
+  margin-left: 24px;
+}

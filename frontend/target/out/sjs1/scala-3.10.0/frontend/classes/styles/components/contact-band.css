@@ -1,0 +1,16 @@
+.contact-band {
+  background: #e9eddf;
+  padding: 50px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact-band h2 {
+  font-size: 47px;
+}
+
+.contact-band p {
+  font-size: 12px;
+  color: #68725f;
+}

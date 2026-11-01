@@ -1,0 +1,15 @@
+.page-head {
+  padding: 66px 0 36px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 46px;
+}
+
+.page-head h1 {
+  font-size: 70px;
+  margin: 16px 0;
+}
+
+.page-head p {
+  font-size: 14px;
+  color: #697469;
+}

@@ -1,0 +1,29 @@
+[0m[[0m[0mdebug[0m] [0m[0mCreated transactional ClassFileManager with tempDir = C:\Users\tks50\Documents\source\portfolio\frontend\target\out\sjs1\scala-3.10.0\frontend\classes.bak[0m
+[0m[[0m[0mdebug[0m] [0m[0mAbout to delete class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mWe backup class files:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRegistering generated classes:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory$.class[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Skill$SkillCategory$.tasty[0m
+[0m[[0m[0mdebug[0m] [0m[0mRemoving the temporary directory used for backing up class files: C:\Users\tks50\Documents\source\portfolio\frontend\target\out\sjs1\scala-3.10.0\frontend\classes.bak[0m

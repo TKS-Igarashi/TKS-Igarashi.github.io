@@ -1,0 +1,28 @@
+dialog {
+  width: min(580px, 90vw);
+  border: 1px solid var(--line);
+  background: var(--paper);
+  color: var(--ink);
+  padding: 42px;
+  max-height: 85vh;
+}
+
+dialog::backdrop {
+  background: #19342680;
+  backdrop-filter: blur(4px);
+}
+
+dialog h2 {
+  font-size: 34px;
+}
+
+/* 閉じるボタン */
+.close {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  font-size: 25px;
+  background: none;
+  border: 0;
+  color: var(--ink);
+}

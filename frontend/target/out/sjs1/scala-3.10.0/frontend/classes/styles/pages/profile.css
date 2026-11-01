@@ -1,0 +1,43 @@
+.profile-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.7fr;
+  gap: 10%;
+  padding-bottom: 80px;
+}
+
+.monogram {
+  height: 350px;
+  background: #e3e9dc;
+  border-radius: 160px 160px 3px 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 100px Georgia;
+  color: #72916a;
+}
+
+.profile-layout h2 {
+  font-family: inherit;
+  font-size: 28px;
+  letter-spacing: 1px;
+}
+
+.facts {
+  margin-top: 30px;
+}
+
+.facts div {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  border-top: 1px solid var(--line);
+  padding: 18px 0;
+  font-size: 13px;
+}
+
+.facts dt {
+  color: #76826f;
+}
+
+.facts dd {
+  margin: 0;
+}

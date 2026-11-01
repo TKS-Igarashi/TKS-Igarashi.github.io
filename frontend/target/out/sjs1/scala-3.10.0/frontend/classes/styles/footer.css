@@ -1,0 +1,16 @@
+footer {
+  padding: 35px 6%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px
+}
+
+footer .brand {
+  font-size: 16px
+}
+
+footer span,footer small {
+  font-size: 10px;
+  color: #7b837a
+}

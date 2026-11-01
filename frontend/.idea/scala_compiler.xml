@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="frontend,frontend_4221,frontend_4221.main,frontend_4221.test" />
+    <profile name="sbt 2" modules="frontend.main,frontend.test">
+      <option name="deprecationWarnings" value="true" />
+      <option name="featureWarnings" value="true" />
+      <parameters>
+        <parameter value="-scalajs" />
+        <parameter value="-encoding" />
+        <parameter value="utf-8" />
+      </parameters>
+    </profile>
+  </component>
+</project>

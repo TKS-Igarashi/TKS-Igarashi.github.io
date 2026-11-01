@@ -1,0 +1,136 @@
+/* 日本語向けの見出し */
+h1,
+h2,
+.skill-row h3 {
+  font-family:
+    Arial,
+    "Hiragino Kaku Gothic ProN",
+    Meiryo,
+    sans-serif;
+  letter-spacing: 0.02em;
+}
+
+h1 em {
+  font-style: normal;
+}
+
+/* Homeのメイン見出し */
+.hero h1 {
+  font-size: clamp(36px, 4vw, 56px);
+  line-height: 1.55;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+}
+
+/* ページ見出し */
+.page-head h1 {
+  font-size: 48px;
+  line-height: 1.5;
+}
+
+h2 {
+  font-size: 34px;
+  line-height: 1.5;
+}
+
+.contact-band h2 {
+  font-size: 38px;
+}
+
+/* イラスト内の文字 */
+.window-title {
+  font-family: inherit;
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+/* 制作実績サムネイル内の文字 */
+.mini-content strong {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.blue .mini-content strong {
+  font-size: 16px;
+}
+
+/* ブランドマーク */
+.monogram {
+  font: 600 58px Arial;
+  letter-spacing: 7px;
+}
+
+/* 文字間隔 */
+.eyebrow,
+.overline {
+  letter-spacing: 0.12em;
+}
+
+nav {
+  gap: 25px;
+}
+
+.skill-row h3 {
+  font-size: 23px;
+}
+
+.home-about {
+  grid-template-columns: 1.1fr 1.4fr;
+}
+
+footer span {
+  letter-spacing: 0.05em;
+}
+
+/* 幅800px以下 */
+@media (max-width: 800px) {
+  nav {
+    gap: 14px;
+  }
+
+  .hero h1 {
+    font-size: 35px;
+  }
+
+  .window-title {
+    font-size: 18px;
+  }
+
+  .contact-band h2 {
+    font-size: 32px;
+  }
+}
+
+/* 幅600px以下 */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: clamp(32px, 8.5vw, 46px);
+    line-height: 1.6;
+  }
+
+  .page-head h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 29px;
+  }
+
+  .home-about {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-band h2 {
+    font-size: 30px;
+  }
+
+  .window-title {
+    font-size: 20px;
+  }
+
+  .mini-content strong,
+  .blue .mini-content strong {
+    font-size: 18px;
+  }
+}

@@ -1,0 +1,5 @@
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\tks50\Documents\source\portfolio\frontend\target\out\jvm\scala-3.8.4\frontend-build\classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Created transactional ClassFileManager with tempDir = C:\Users\tks50\Documents\source\portfolio\frontend\target\out\jvm\scala-3.8.4\frontend-build\classes.bak
+[debug] Removing the temporary directory used for backing up class files: C:\Users\tks50\Documents\source\portfolio\frontend\target\out\jvm\scala-3.8.4\frontend-build\classes.bak
