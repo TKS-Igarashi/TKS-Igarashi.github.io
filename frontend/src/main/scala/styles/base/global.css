@@ -108,7 +108,7 @@ h3 {
 .overline {
   font-size: 10px;
   letter-spacing: 2px;
-  color: #7c8978;
+  color: #5f6b5c;
 }
 
 /* 共通セクション */
@@ -135,7 +135,7 @@ h3 {
 
 /* 補足文 */
 .sample-note {
-  color: #788273;
+  color: var(--muted);
   font-size: 11px;
   margin-top: 25px;
 }

@@ -21,7 +21,8 @@ object HeroSection:
         "Web制作・アプリケーション開発"
       ),
       headline,
-      h3(
+      p(
+        cls := "hero-tagline",
         "考えて、つくる。使う人のために。"
       ),
       description,

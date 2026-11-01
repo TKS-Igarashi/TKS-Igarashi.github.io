@@ -137,6 +137,10 @@
     font-size: 17px;
   }
 
+  .hero .hero-tagline {
+    font-size: 17px;
+  }
+
   .art {
     height: 365px;
     max-width: 430px;

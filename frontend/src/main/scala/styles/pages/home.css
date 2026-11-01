@@ -13,6 +13,13 @@
   margin: 26px 0 14px;
 }
 
+.hero .hero-tagline {
+  font-size: 19px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  margin: 26px 0 14px;
+}
+
 .actions {
   display: flex;
   align-items: center;
@@ -199,7 +206,7 @@
   align-items: center;
   padding: 23px 0;
   font-size: 11px;
-  color: #7b8378;
+  color: var(--muted);
   letter-spacing: 1px;
 }
 

@@ -13,5 +13,5 @@ footer .brand {
 footer span,
 footer small {
   font-size: 10px;
-  color: #7b837a;
+  color: var(--muted);
 }
