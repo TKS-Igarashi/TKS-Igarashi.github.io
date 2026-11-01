@@ -6,6 +6,7 @@
 .bloop/
 .vscode/
 metals.sbt
+learning/
 
 # ===== sbt / Scala =====
 # target/ はどの階層でも成果物
