@@ -17,7 +17,7 @@ object HomeData:
         id = "portfolio",
         title = "IGAM ポートフォリオ",
         category = "Webサイト",
-        conceptLabel = "制作中",
+        conceptLabel = "公開中・改善中",
         brandName = "IGAM",
         headlineLines = List(
           "学びを、",
@@ -40,8 +40,8 @@ object HomeData:
             "実績の絞り込みやフォームの入力確認を実装した。",
             "スマートフォンのメニューとキーボード操作に対応した。"
           ),
-        githubUrl = None,
-        publicUrl = None,
+        githubUrl = Some("https://github.com/TKS-Igarashi/TKS-Igarashi.github.io"),
+        publicUrl = Some("https://tks-igarashi.github.io/"),
         images = List(
           ProjectImage(
             src = "/images/portfolio/home.png",

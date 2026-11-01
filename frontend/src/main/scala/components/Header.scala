@@ -50,7 +50,7 @@ object Header:
       ),
 
       // ページを切り替えたら閉じる
-      AppRouter.router.currentPageSignal.changes --> { _ =>
+      AppRouter.router.currentPageSignal.updates --> { _ =>
         menuOpen.set(false)
       },
 
