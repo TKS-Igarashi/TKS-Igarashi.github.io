@@ -1,5 +1,5 @@
 # PortfolioSite
-URL:https://igam.dev(ドメイン取得済み)
+URL:https://igam.dev (ドメイン取得済み)
 
 ## 開発環境
 Frontend: Scala.js
