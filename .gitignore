@@ -1,0 +1,32 @@
+# ===== IDE / Build Server =====
+.idea/
+*.iml
+.bsp/
+.metals/
+.bloop/
+.vscode/
+metals.sbt
+
+# ===== sbt / Scala =====
+# target/ はどの階層でも成果物
+target/
+# project/ 配下は build.properties と plugins.sbt を残し、成果物だけ除外する
+project/target/
+project/project/
+
+# ===== mill (backend/build.mill を使う場合) =====
+out/
+
+# ===== Node / Vite (frontend) =====
+node_modules/
+dist/
+*.local
+npm-debug.log*
+
+# ===== Play (backend) =====
+logs/
+RUNNING_PID
+
+# ===== OS =====
+.DS_Store
+Thumbs.db
