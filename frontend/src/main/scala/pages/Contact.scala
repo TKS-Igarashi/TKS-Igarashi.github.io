@@ -6,6 +6,9 @@ import components.PageHeading
 
 object Contact:
 
+  private val contactEmail = "contact@igam.dev"
+  private val githubUrl = "https://github.com/TKS-Igarashi"
+
   private val inquiryKinds: List[String] =
     List(
       "スカウト・採用について",
@@ -47,13 +50,38 @@ object Contact:
         br(),
         "ご相談の内容をお聞かせください。"
       ),
+      directContact,
       p(
         cls := "notice",
-        "こちらはデザイン確認用フォームです。",
+        "右のフォームはデザイン確認用のデモです。",
         br(),
-        "入力内容の確認まで体験できます。",
+        "入力内容は送信・保存されません" ,
         br(),
-        "データは送信・保存されません。"
+        "ご連絡は上記のメールアドレスへお願いします。"
+      )
+    )
+
+  private def directContact: HtmlElement =
+    div(
+      cls := "direct-contact",
+      h3("ご連絡先"),
+      dl(
+        dt("メール"),
+        dd(
+          a(
+            href := s"mailto:$contactEmail",
+            contactEmail
+          )
+        ),
+        dt("GitHub"),
+        dd(
+          a(
+            href := githubUrl,
+            target := "_blank",
+            rel := "noopener noreferrer",
+            "TKS-Igarashi"
+          )
+        )
       )
     )
 

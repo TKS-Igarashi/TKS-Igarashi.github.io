@@ -1,5 +1,5 @@
 # PortfolioSite
-URL(https://tks-igarashi.github.io/)
+URL:https://igam.dev(ドメイン取得済み)
 
 ## 開発環境
 Frontend: Scala.js
@@ -11,3 +11,4 @@ DB: PostgreSQL
 
 ## 制作時期
 2026/10/30開始 -> 2026/11/01 フロント部分（仮）
+2026/11/01 -> ドメイン取得

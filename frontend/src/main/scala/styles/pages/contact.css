@@ -83,3 +83,41 @@ textarea {
 .form-result:empty {
   display: none;
 }
+
+/* 直接の連絡先 */
+.direct-contact {
+  margin: 32px 0 24px;
+  padding: 20px 24px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: #fff;
+}
+
+.direct-contact h3 {
+  font-size: 13px;
+  margin: 0 0 12px;
+  color: var(--ink);
+}
+
+.direct-contact dl {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 8px 20px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.direct-contact dt {
+  color: var(--muted);
+}
+
+.direct-contact dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}
+
+.direct-contact a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

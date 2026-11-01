@@ -41,7 +41,7 @@ object HomeData:
             "スマートフォンのメニューとキーボード操作に対応した。"
           ),
         githubUrl = Some("https://github.com/TKS-Igarashi/TKS-Igarashi.github.io"),
-        publicUrl = Some("https://tks-igarashi.github.io/"),
+        publicUrl = Some("https://igam.dev/"),
         images = List(
           ProjectImage(
             src = "/images/portfolio/home.png",
