@@ -1,13 +1,17 @@
 import { defineConfig } from "vite";
 import { spawn } from "node:child_process";
 import { existsSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+
+// ルートの build.sbt で frontend と backend をまとめているため、sbt はリポジトリのルートで実行する
+const rootDir = fileURLToPath(new URL("..", import.meta.url));
 
 // sbt 2 の thin client は出力先パスの後にも出力を続けるため、
 // 公式プラグインの「最後の行を出力先とみなす」処理が失敗する。
 // 出力の中から実在するディレクトリの行を探して使う。
 function printSbtTask(task) {
   const args = ["--batch", "-no-colors", "-Dsbt.supershell=false", `print ${task}`];
-  const options = { stdio: ["ignore", "pipe", "inherit"] };
+  const options = { cwd: rootDir, stdio: ["ignore", "pipe", "inherit"] };
   const child = process.platform === "win32"
     ? spawn("sbt.bat", args.map(x => `"${x}"`), { shell: true, ...options })
     : spawn("sbt", args, options);
@@ -46,7 +50,8 @@ function scalaJSPlugin() {
       isDev = config.mode === "development";
     },
     async buildStart() {
-      outputDir = await printSbtTask(isDev ? "fastLinkJSOutput" : "fullLinkJSOutput");
+      const task = isDev ? "fastLinkJSOutput" : "fullLinkJSOutput";
+      outputDir = await printSbtTask(`frontend/${task}`);
     },
     resolveId(source) {
       return source.startsWith("scalajs:")
