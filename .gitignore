@@ -15,9 +15,6 @@ target/
 project/target/
 project/project/
 
-# ===== mill (backend/build.mill を使う場合) =====
-out/
-
 # ===== Node / Vite (frontend) =====
 node_modules/
 dist/
