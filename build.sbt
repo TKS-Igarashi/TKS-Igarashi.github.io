@@ -35,5 +35,8 @@ lazy val backend = project
     libraryDependencies ++= Seq(
       guice,
       "org.scalatestplus.play" %% "scalatestplus-play" % "8.0.0-M2" % Test
-    )
+    ),
+    // sbt 2 では Enter 待ちの入力をうまく受け取れず、起動直後に止まるため、待たないモードにする
+    PlayKeys.playInteractionMode := play.sbt.StaticPlayNonBlockingInteractionMode,
+    exportJars := false
   )
